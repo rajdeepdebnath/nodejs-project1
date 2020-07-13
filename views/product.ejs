@@ -1,0 +1,8 @@
+<%- include('./partials/header.ejs') %>
+    <h1>Product</h1>
+    <form method="POST" action="/admin/add-product">
+        <input type="text" name="productname"/>
+        <input type="submit" value="Submit"/>
+    </form>
+    <h3>List of products</h3>
+<%- include('./partials/footer.ejs') %>
